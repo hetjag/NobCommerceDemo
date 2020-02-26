@@ -108,16 +108,19 @@ public class HomePage  extends Utils{
             //finding how many add to cart present in each item by its element
            int cart = item.findElements(_addCartButtonField).size();
 
-           if (!(cart==1))
+           if ((cart==1))
            {
                count++;
+
+           }else
+           {
                //get title name of item which does not have add to car button
                System.out.println("NO ADD TO CART BUTTON >>>>>> "+item.findElement(_productNameField).getText());
            }
         }
 
         //verifying expected add to cart number present with expected numbers
-        Assert.assertEquals(listOfItems.size(),count,"Some of items does not have ADD TO CART button");
+        Assert.assertEquals(count,listOfItems.size(),"Some of items does not have ADD TO CART button");
 
     }
 
