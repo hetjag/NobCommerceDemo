@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 
 public class EmailAFriendPage extends Utils
 {
-    private By _friendEmail = By.className("friend-email");
-    private By _yourEmail = By.className("your-email.valid");
+    private By _friendEmail = By.id("FriendEmail");
+    private By _yourEmail = By.id("YourEmailAddress");
     private By _textBox = By.xpath("//*[@id='PersonalMessage']");
     private By _sendEmail = By.name("send-email");
     private String friendEmail = "wet@gmail.com";

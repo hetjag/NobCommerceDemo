@@ -8,7 +8,7 @@ public class RegistrationPage extends Utils
     private By _lastName = By.id("LastName");
     private By _email = By.id("Email");
     private By _password = By.id("Password");
-    private By _confirmPassword = By.id("ConfirmPassword1");
+    private By _confirmPassword = By.id("ConfirmPassword");
     private By _registerButton = By.id("register-button");
     private String firstName = "Raj";
     private String lastName = "Smith";

@@ -181,7 +181,7 @@ public class TestSuit extends BaseTest {
     }
 
 
-    @Test
+//    @Test
     public void printPriceForEachProduct()
     {
         List<WebElement> productList = driver.findElements(By.xpath("//span[@class='price actual-price']"));
