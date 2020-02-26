@@ -1,21 +1,32 @@
 package WebTest;
 
 
-import org.junit.After;
-import org.junit.Before;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
 
+import java.util.concurrent.TimeUnit;
 
 public class BaseTest extends Utils {
     BrowserSelector browserSelector = new BrowserSelector();
-@Before
+@BeforeMethod
+
     public void openBrowser() {
         browserSelector.setUpBrowser();
 
     }
 
-   @After
-    public void closeBrowser() {
-        browserSelector.closeBrowser();
+   @AfterMethod
+    public void closeBrowser(ITestResult result)
+   {
+    if (!result.isSuccess()){
+        takeScreenShot(result.getName()+timeStamp());
+
+    }
+
+        driver.quit();
 
     }
 }

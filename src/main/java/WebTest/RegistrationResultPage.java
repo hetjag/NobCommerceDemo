@@ -1,6 +1,7 @@
 package WebTest;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 
 public class RegistrationResultPage extends Utils
 {
@@ -9,8 +10,9 @@ public class RegistrationResultPage extends Utils
     private By _pageContinue = By.name("register-continue");
 public void verifyUserSeeRegistrationSuccessMessage()
 {
+    sleep(3);
     assertURL("registerresult");
-    assertTextMessage("Registration not successful...",expected, _registerSuccessMessage);
+    assertTextMessage(_registerSuccessMessage,expected,"Registration not successful..." );
 }
 public void pageContinue()
 {
