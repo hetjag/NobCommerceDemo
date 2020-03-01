@@ -112,7 +112,7 @@ public class TestSuit extends BaseTest {
     public void userShouldBeAbleToCompareTwoDifferentProductSuccessfully() {
 
         //select two products & click compare
-        homePage.clickOnCompareProduct();
+        homePage.addProductsForComparison();
         //verify compare success massage
         compareSuccessPage.verifyUserShouldSeeCompareSuccessMassage();
 

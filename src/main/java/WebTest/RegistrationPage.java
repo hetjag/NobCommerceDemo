@@ -32,6 +32,10 @@ public class RegistrationPage extends Utils
         EnterText(_email,"Rajpatel+"+timeStamp()+"@gmail.com");
         EnterText(_password,"Test1234");
         EnterText(_confirmPassword,"Test1234");
+
+    }
+
+    public void userClicksOnRegisterSubmitButton(){
         clickOnElement(_registerButton);
 
     }

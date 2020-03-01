@@ -6,7 +6,7 @@ import org.testng.Assert;
 public class RegistrationResultPage extends Utils
 {
     private By _registerSuccessMessage = By.className("result");
-    String expected = "Your registration completed";
+    String expected = "Your registration completed....";
     private By _pageContinue = By.name("register-continue");
 public void verifyUserSeeRegistrationSuccessMessage()
 {

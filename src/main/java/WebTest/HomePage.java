@@ -67,10 +67,11 @@ public class HomePage  extends Utils{
 
     public void clickOnRegisterButton()
     {
+
         clickOnElement(_registerLink);
     }
 
-    public void clickOnCompareProduct()
+    public void addProductsForComparison()
     {
         clickOnElement(_compareFirstProduct);
         //verifying
@@ -78,10 +79,13 @@ public class HomePage  extends Utils{
         clickOnElement(_compareSecondProduct);
         //verifying
         verifyElementIsDisplayed(_displayBarField);
-        //
-        clickOnElement(_compareProduct);
 
     }
+
+    public void clickCompareButton() {
+        clickOnElement(_compareProduct);
+    }
+
     public void clickOnProduct()
     {
         waitForClickable(_productClick,10);
