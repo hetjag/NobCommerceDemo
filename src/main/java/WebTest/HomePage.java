@@ -24,6 +24,7 @@ public class HomePage  extends Utils{
     private By _productNameField = By.cssSelector("h2.product-title > a");
     private By _digitalDownloadsButton = By.linkText("Digital downloads");
     private By _nopCommerceLink =By.linkText("demo.nopcommerce");
+    private By _homePageImage = By.xpath("//img[@alt='nopCommerce demo store']");
 
 
     public void clickOnDigitalDownloadsCategory()
@@ -134,6 +135,10 @@ public class HomePage  extends Utils{
 //        scrollAndClick(By);
     }
 
+    public void navigateToHomepage()
+    {
+        clickOnElement(_homePageImage);
+    }
 
 }
 

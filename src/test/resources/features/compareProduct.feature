@@ -1,4 +1,4 @@
-@compare
+@compare   @regression
 Feature: As a user, I should able to register successfully,
   So that I can use all user functionality.
 

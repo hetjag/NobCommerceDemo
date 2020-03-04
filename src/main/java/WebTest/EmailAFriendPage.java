@@ -29,13 +29,27 @@ public class EmailAFriendPage extends Utils
         scrollAndClick(_sendEmail);
 
     }
+    public void userFillsFriendDetailsWithoutOwnEmail()
+    {
+        sleep(3);
+        EnterText(_friendEmail,friendEmail);
+        EnterText(_textBox,message);
+        scrollAndClick(_sendEmail);
+
+    }
+    public void clickOnSendEmail()
+    {
+        scrollAndClick(_sendEmail);
+    }
     public void verifyUserSeeSuccessMessageOfEmailAFriend()
     {
-//       assertTextMessage("Your message has NOT been sent",expected,_emailSuccessMessage);
+   //   assertTextMessage("Your message has NOT been sent",expected,_emailSuccessMessage);
+      assertTextMessage(_emailSuccessMessage,expected,"Your message has NOT been sent");
     }
 
     public void verifyUserSeeErrorMessage()
     {
-//        assertTextMessage("Your message not display",expected,_emailErrorMessage);
+  //     assertTextMessage("Your message not display",expected,_emailErrorMessage);
+       assertTextMessage(_emailErrorMessage,expectedError,"Your message not display");
     }
 }

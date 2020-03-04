@@ -15,7 +15,7 @@ public class RegistrationPage extends Utils
     private static String timeStemp = timeStamp();
 
 
-    public static void verifyUserIsOnRegisterPage()
+    public  void verifyUserIsOnRegisterPage()
     {
         assertURL("register");
 

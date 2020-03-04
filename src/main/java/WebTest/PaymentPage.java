@@ -26,9 +26,13 @@ public class PaymentPage extends Utils {
         dropDrownVisibletext(_expireMonth, "12");
         dropDrownVisibletext(_expireYear, "2022");
         clearAndEnterText(_cardCode,"734");
+
+
+
+
+    }
+    public void paymentContinueButton(){
         clickOnElement(_savePayementInfoContinueButton);
-
-
 
     }
 }

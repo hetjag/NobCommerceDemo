@@ -43,6 +43,11 @@ public class OnePageCheckoutPage extends Utils
         EnterText(_addressLineOneOfCheckOut,addressLineOneOfCheckOut);
         EnterText(_postalCodeOfCheckOut,postalCodeOfCheckOut);
         EnterText(_phoneNumberOfCheckOut,phoneNumberOfCheckOut);
+
+
+    }
+    public void selectContinueButton()
+    {
         clickOnElement(_continueOfCheckOut);
 
     }

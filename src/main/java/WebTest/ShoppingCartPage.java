@@ -12,7 +12,7 @@ public class ShoppingCartPage extends Utils
     }
 
     public void clickOnTickBox()
-    {
+    {   sleep(5);
         clickOnElement(_tickBox);
     }
 

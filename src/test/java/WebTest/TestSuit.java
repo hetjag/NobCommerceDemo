@@ -51,8 +51,12 @@ public class TestSuit extends BaseTest {
         onePageCheckoutPage.verifyUserShouldOnOnePageCheckoutPage();
         //ClickOnAllCompulsoryFilled
         onePageCheckoutPage.fillInAllCompulsoryFields();
+        //selecting continue button
+        onePageCheckoutPage.selectContinueButton();
         //ClickOnCreditCard
         paymentPage.selectAndFillCreditCardDetails();
+        //click on payment button
+        paymentPage.paymentContinueButton();
 
         //ClickOnConfirm
         confirmPage.clickOnConfirm();
@@ -122,6 +126,7 @@ public class TestSuit extends BaseTest {
     public void registeredUserShouldBeAbleToReferAProductTOAFriend() {
         homePage.clickOnRegisterButton();
         registrationPage.userEntrsRegistrationDetails();
+        registrationPage.userClicksOnRegisterSubmitButton();
 
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
 
@@ -164,7 +169,8 @@ public class TestSuit extends BaseTest {
     }
 
     @Test
-    public void userShouldBeAbleToSortProductHighToLowByPrice() {
+    public void userShouldBeAbleToSortProductHighToLowByPrice()
+    {
         sleep(3);
 
         //click on book category
@@ -177,7 +183,7 @@ public class TestSuit extends BaseTest {
         booksCategoryPage.selectCategoryOpitionsHighToLow();
 
         // verify price organised high to low
-//        booksCategoryPage.verifyPriceOrganisedHighToLow();
+       booksCategoryPage.verifyPriceOrganisedHighToLow();
     }
 
 
@@ -194,10 +200,6 @@ public class TestSuit extends BaseTest {
 
     }
 
-    {
-
-
-    }
 
 
 
