@@ -132,7 +132,7 @@ public class MyStepdefs {
     @And("guest user can click on add to cart")
     public void guestUserCanClickOnAddToCart()
     {
-        digitalDownloadPage.clickOnShoppingCart();
+        digitalDownloadPage.clickOnAddToCartButton();
     }
 
     @And("guest user can click on shipping cart")
