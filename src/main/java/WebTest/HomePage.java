@@ -8,6 +8,8 @@ import java.util.List;
 
 public class HomePage  extends Utils{
     LoadProp loadProp = new LoadProp();
+    SoftAssert softAssert = new SoftAssert();
+
 
     private By _registerLink = By.linkText("Register");
     private By _compareFirstProduct = By.xpath("//div/div[2]/div/div[2]/div[3]/div[2]/input[@value='Add to compare list']");
@@ -18,7 +20,6 @@ public class HomePage  extends Utils{
     private By _email = By.className("button-2 email-a-friend-button");
     private By _clickOnBook = By.linkText("Books");
     private By _currencyDropDrownMenuField = By.id("customerCurrency");
-    SoftAssert softAssert = new SoftAssert();
     private By _itemBoxesField = By.className("product-item");
     private By _addCartButtonField = By.cssSelector("[type='button'][value='Add to cart']");
     private By _productNameField = By.cssSelector("h2.product-title > a");
@@ -138,6 +139,9 @@ public class HomePage  extends Utils{
     public void navigateToHomepage()
     {
         clickOnElement(_homePageImage);
+    }
+    public void clickOnCategoryLinks(String category){
+        driver.findElement(By.linkText(category)).click();
     }
 
 }

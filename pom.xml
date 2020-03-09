@@ -24,12 +24,43 @@
       <artifactId>selenium-java</artifactId>
       <version>3.141.59</version>
     </dependency>
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.5</version>
-    </dependency>
-    <dependency>
+
+
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/info.cukes/cucumber-java &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>info.cukes</groupId>-->
+<!--      <artifactId>cucumber-java</artifactId>-->
+<!--      <version>1.2.5</version>-->
+<!--    </dependency>-->
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/info.cukes/cucumber-junit &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>info.cukes</groupId>-->
+<!--      <artifactId>cucumber-junit</artifactId>-->
+<!--      <version>1.1.2</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/info.cukes/cucumber-java &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>info.cukes</groupId>-->
+<!--      <artifactId>cucumber-java</artifactId>-->
+<!--      <version>1.2.5</version>-->
+<!--    </dependency>-->
+
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/commons-io/commons-io &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>commons-io</groupId>-->
+<!--      <artifactId>commons-io</artifactId>-->
+<!--      <version>2.5</version>-->
+<!--    </dependency>-->
+
+
+        <dependency>
+          <groupId>commons-io</groupId>
+          <artifactId>commons-io</artifactId>
+          <version>2.5</version>
+        </dependency>
+
+        <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-core</artifactId>
       <version>5.4.0</version>
@@ -48,6 +79,8 @@
       <version>5.4.0</version>
       <scope>test</scope>
     </dependency>
+
+    
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>

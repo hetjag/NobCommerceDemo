@@ -13,16 +13,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-public class BrowserSelector extends Utils
-{
+public class BrowserSelector extends Utils {
 
     LoadProp loadProp = new LoadProp();
     String browser = loadProp.getProperty("browser");
-    public void setUpBrowser()
 
-    {
-        if (browser.equalsIgnoreCase("chrome"))
-        {
+    public void setUpBrowser() {
+        if (browser.equalsIgnoreCase("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src\\test\\resources\\BrowserDriver\\chromedriver.exe");
             Map<String, Object> prefs = new HashMap<String, Object>();
             prefs.put("credentials_enable_service", false);
@@ -43,15 +40,14 @@ public class BrowserSelector extends Utils
 //            caps.setCapability(CapabilityType.ForSeleniumServer.ENSURING_CLEAN_SESSION, true);
 //            caps.setCapability("chrome.switches", Arrays.asList("--incognito"));
 //            caps.setCapability(ChromeOptions.CAPABILITY, options);
-            driver= new ChromeDriver(options);
+            driver = new ChromeDriver(options);
 
 
-
-        }else if (browser.equalsIgnoreCase("firefox")){
+        } else if (browser.equalsIgnoreCase("firefox")) {
             System.setProperty("webdriver.gecko.driver", "src\\test\\resources\\BrowserDriver\\geckodriver.exe");
-            driver= new FirefoxDriver();
+            driver = new FirefoxDriver();
 
-        }else if(browser.equalsIgnoreCase("ie")){
+        } else if (browser.equalsIgnoreCase("ie")) {
             System.setProperty("webdriver.ie.driver", "src\\test\\resources\\BrowserDriver\\IEDriverServer.exe");
             DesiredCapabilities ieCapabilities = DesiredCapabilities.internetExplorer();
 
@@ -65,10 +61,9 @@ public class BrowserSelector extends Utils
 
             driver = new InternetExplorerDriver(ieCapabilities);
 
-        }else
-                {
-                    System.out.println("browser name is wrong or empty :" + browser);
-                }
+        } else {
+            System.out.println("browser name is wrong or empty :" + browser);
+        }
 
 
         driver.manage().window().fullscreen();

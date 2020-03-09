@@ -1,45 +1,39 @@
 package WebTest;
-
-
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Utils
+public class Utils extends BasePage
 {
-    static protected WebDriver driver;
-
-
-    public void waitForClickable(By by, int time)
+    public static void waitForClickable(By by, int time)
     {
         WebDriverWait wait = new WebDriverWait(driver,time);
         wait.until(ExpectedConditions.elementToBeClickable(by));
     }
 
 
-    public void waitForVisibility(By by,int time)
+    public static void waitForVisibility(By by,int time)
     {
         WebDriverWait wait = new WebDriverWait(driver,time);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     }
 
     //wait for element present
-    public void waitForElementsPresent(By by,int time)
+    public static void waitForElementsPresent(By by,int time)
     {  WebDriverWait wait = new WebDriverWait(driver,time);
         wait.until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
 
-    public void dropDrownVisibletext(By by,String text)
+    public static void dropDrownVisibletext(By by,String text)
     { Select select = new Select(driver.findElement(by));
         select.selectByVisibleText(text);
     }
@@ -62,12 +56,12 @@ public class Utils
 
 
 
-    public void dropDownIndex(By by,int number)
+    public static void dropDownIndex(By by,int number)
     {Select select = new Select(driver.findElement(by));
         select.selectByIndex(number);
     }
 
-    public void dropDownValue(By by,String text)
+    public static void dropDownValue(By by,String text)
     { Select select = new Select(driver.findElement(by));
         select.selectByValue(text);
     }
@@ -85,13 +79,13 @@ public class Utils
         driver.findElement(by).click();
     }
 
-    public void clearAndEnterText(By by, String text)
+    public static void clearAndEnterText(By by, String text)
     {
         driver.findElement(by).clear();
         driver.findElement(by).sendKeys(text);
     }
 
-    public void EnterText(By by,String text)
+    public static void EnterText(By by,String text)
     {
         driver.findElement(by).sendKeys(text);
 

@@ -242,4 +242,20 @@ public class MyStepdefs {
     public void iEnterAllDetailsExceptOwnEmail() {
         emailAFriendPage.userFillsFriendDetailsWithoutOwnEmail();
     }
+
+    @Given("user us on homepage")
+    public void userUsOnHomepage()
+    {homePage.verifyUserIsOnHOmePage();
+    }
+
+    @When("user clicks on {string} link from top menu")
+    public void userClicksOnLinkFromTopMenu(String category)
+    {
+        homePage.clickOnCategoryLinks(category);
+    }
+
+    @Then("user should able to navigate to {string} successfully")
+    public void userShouldAbleToNavigateToSuccessfully(String related_category_page)
+    { Utils.assertURL(related_category_page);
+    }
 }
