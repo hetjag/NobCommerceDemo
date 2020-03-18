@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f05ce832-512d-43f0-8b0c-e4c3457aca36" name="Default Changelist" comment="Adding feature files">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/registeredUserShouldBeAbleToReferAProductTOAFriend185320095311.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/sample.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully161120081140.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully161220081255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully162320072323.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully163920073947.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully164020074029.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully164420074453.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldBeAbleToCompareTwoDifferentProductSuccessfully185320095347.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/checkHooveringInCategories.feature" afterDir="false" />
+    <list default="true" id="f05ce832-512d-43f0-8b0c-e4c3457aca36" name="Default Changelist" comment="Hover homework added">
       <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/Guest user should able to check040720090717.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to compare two different product181520101531.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to navigate to subcategory page180520090511.png" afterDir="false" />
@@ -97,14 +87,6 @@
       <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldBeAbleToCompareTwoDifferentProductSuccessfully185320095347.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/features/categories.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target/test-classes/features/checkHooveringInCategories.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/BrowserSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/MyStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/TestSuit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/TestDataConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/TestDataConfig.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Destination/cucumber-html-report/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/embedded0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Destination/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/BrowserSelector.class" afterDir="false" />
@@ -328,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583356279251</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Hover homework added">
+      <created>1584571674887</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584571674887</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -339,7 +328,8 @@
     <MESSAGE value="Adding feature files" />
     <MESSAGE value="Adding feature files with cucumber" />
     <MESSAGE value="changed method in guest checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed method in guest checkout" />
+    <MESSAGE value="Hover homework added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hover homework added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="0" width="596" height="728" key="#Screenshots" timestamp="1582479386559">
@@ -393,11 +383,11 @@
       <screen x="-340" y="-1200" width="1920" height="1160" />
     </state>
     <state x="337" y="-962" key="#hover.feature/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569116942" />
-    <state x="254" y="0" key="CommitChangelistDialog2" timestamp="1584571630108">
+    <state x="254" y="0" key="CommitChangelistDialog2" timestamp="1584571673355">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1723" y="-256" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583356278036" />
-    <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584571630108" />
+    <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584571673355" />
     <state x="354" y="-859" key="EnvironmentVariablesDialog" timestamp="1584568909212">
       <screen x="-340" y="-1200" width="1920" height="1160" />
     </state>

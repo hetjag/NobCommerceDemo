@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 4,
     "elements": [
       {
-        "line": 3,
+        "line": 6,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,24 +11,119 @@
         "steps": [
           {
             "result": {
-              "duration": 26000000,
+              "duration": 2000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user us on homepage",
+            "line": 7,
+            "name": "user is on the Nopcommerce homepage",
             "match": {
-              "location": "WebTest.MyStepdefs.userUsOnHomepage()"
+              "location": "WebTest.MyStepdefs.userIsOnTheNopcommerceHomepage()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-03-07T14:37:57.342Z",
+        "start_timestamp": "2020-03-18T21:55:25.075Z",
         "before": [
           {
             "result": {
-              "duration": 13127000000,
+              "duration": 11171000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebTest.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "I should able to use hoover facilities",
+        "description": "",
+        "id": "as-user-i-can-use-hoover-facilities-on-category;i-should-able-to-use-hoover-facilities",
+        "after": [
+          {
+            "result": {
+              "duration": 703000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "WebTest.Hooks.closeBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3254000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I hover over on category \"Electronics\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Electronics\"",
+                  "offset": 25
+                }
+              ],
+              "location": "WebTest.MyStepdefs.iHoverOverOnCategoryLink(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should able to see related \"Electronics\" link text color change to blue",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Electronics\"",
+                  "offset": 29
+                }
+              ],
+              "location": "WebTest.MyStepdefs.iShouldAbleToSeeRelatedLinkTextColorChangeToBlue(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hover"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on the Nopcommerce homepage",
+            "match": {
+              "location": "WebTest.MyStepdefs.userIsOnTheNopcommerceHomepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-03-18T21:55:40.387Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11128000000,
               "status": "passed"
             },
             "match": {
@@ -37,108 +132,13 @@
           }
         ],
         "line": 14,
-        "name": "User can navigate to correct category page,",
-        "description": "  So that he can use all products features from categories",
-        "id": "categories;user-can-navigate-to-correct-category-page-;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 720000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "WebTest.Hooks.closeBrowser(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 776000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks on \"Computers\" link from top menu",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Computers\"",
-                  "offset": 15
-                }
-              ],
-              "location": "WebTest.MyStepdefs.userClicksOnLinkFromTopMenu(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 7000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user should able to navigate to \"https://demo.nopcommerce.com/computers\" successfully",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://demo.nopcommerce.com/computers\"",
-                  "offset": 32
-                }
-              ],
-              "location": "WebTest.MyStepdefs.userShouldAbleToNavigateToSuccessfully(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@category"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
+        "name": "I should able to navigate to subcategory page",
         "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 9000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user us on homepage",
-            "match": {
-              "location": "WebTest.MyStepdefs.userUsOnHomepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-03-07T14:38:12.162Z",
-        "before": [
-          {
-            "result": {
-              "duration": 11581000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "WebTest.Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 15,
-        "name": "User can navigate to correct category page,",
-        "description": "  So that he can use all products features from categories",
-        "id": "categories;user-can-navigate-to-correct-category-page-;;3",
+        "id": "as-user-i-can-use-hoover-facilities-on-category;i-should-able-to-navigate-to-subcategory-page",
         "after": [
           {
             "result": {
-              "duration": 706000000,
+              "duration": 741000000,
               "status": "passed"
             },
             "match": {
@@ -147,247 +147,69 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 1479000000,
+              "duration": 5805000000,
               "status": "passed"
             },
-            "line": 10,
-            "name": "user clicks on \"Electronics\" link from top menu",
+            "line": 15,
+            "name": "I hover over \"Electronics\"  link and click on subcategory \"Camera \u0026 photo\" link",
             "match": {
               "arguments": [
                 {
                   "val": "\"Electronics\"",
-                  "offset": 15
+                  "offset": 13
+                },
+                {
+                  "val": "\"Camera \u0026 photo\"",
+                  "offset": 58
                 }
               ],
-              "location": "WebTest.MyStepdefs.userClicksOnLinkFromTopMenu(java.lang.String)"
+              "location": "WebTest.MyStepdefs.iHoverOverLinkAndClickOnSubcategoryLink(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 7000000,
               "status": "passed"
             },
-            "line": 11,
-            "name": "user should able to navigate to \"https://demo.nopcommerce.com/electronics\" successfully",
+            "line": 16,
+            "name": "I should able to navigate to sub category  \"camera-photo\" page successfully",
             "match": {
               "arguments": [
                 {
-                  "val": "\"https://demo.nopcommerce.com/electronics\"",
-                  "offset": 32
+                  "val": "\"camera-photo\"",
+                  "offset": 43
                 }
               ],
-              "location": "WebTest.MyStepdefs.userShouldAbleToNavigateToSuccessfully(java.lang.String)"
+              "location": "WebTest.MyStepdefs.iShouldAbleToNavigateToSubCategoryPageSuccessfully(java.lang.String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@category"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 10000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user us on homepage",
-            "match": {
-              "location": "WebTest.MyStepdefs.userUsOnHomepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-03-07T14:38:25.959Z",
-        "before": [
-          {
-            "result": {
-              "duration": 11472000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "WebTest.Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "User can navigate to correct category page,",
-        "description": "  So that he can use all products features from categories",
-        "id": "categories;user-can-navigate-to-correct-category-page-;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 690000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "WebTest.Hooks.closeBrowser(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1456000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks on \"Apparel\" link from top menu",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Apparel\"",
-                  "offset": 15
-                }
-              ],
-              "location": "WebTest.MyStepdefs.userClicksOnLinkFromTopMenu(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user should able to navigate to \"https://demo.nopcommerce.com/apparel\" successfully",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://demo.nopcommerce.com/apparel\"",
-                  "offset": 32
-                }
-              ],
-              "location": "WebTest.MyStepdefs.userShouldAbleToNavigateToSuccessfully(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@category"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 8000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user us on homepage",
-            "match": {
-              "location": "WebTest.MyStepdefs.userUsOnHomepage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-03-07T14:38:39.610Z",
-        "before": [
-          {
-            "result": {
-              "duration": 11455000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "WebTest.Hooks.openBrowser()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "User can navigate to correct category page,",
-        "description": "  So that he can use all products features from categories",
-        "id": "categories;user-can-navigate-to-correct-category-page-;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 728000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "WebTest.Hooks.closeBrowser(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1573000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user clicks on \"Digital downloads\" link from top menu",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Digital downloads\"",
-                  "offset": 15
-                }
-              ],
-              "location": "WebTest.MyStepdefs.userClicksOnLinkFromTopMenu(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user should able to navigate to \"https://demo.nopcommerce.com/digital-downloads\" successfully",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"https://demo.nopcommerce.com/digital-downloads\"",
-                  "offset": 32
-                }
-              ],
-              "location": "WebTest.MyStepdefs.userShouldAbleToNavigateToSuccessfully(java.lang.String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@category"
+            "name": "@hover"
           }
         ]
       }
     ],
-    "name": "Categories",
-    "description": "",
-    "id": "categories",
+    "name": "As User I can use hoover facilities on category",
+    "description": "   So that I can use hoover facilities successfully",
+    "id": "as-user-i-can-use-hoover-facilities-on-category",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/categories.feature",
-    "tags": []
+    "uri": "file:src/test/resources/features/checkHooveringInCategories.feature",
+    "tags": [
+      {
+        "name": "@hover",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

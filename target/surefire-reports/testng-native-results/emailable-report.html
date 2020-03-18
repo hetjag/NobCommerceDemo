@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">206,697</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">WebTest.TestSuit</td><td><a href="#m0">registeredUserShouldBeAbleToReferAProductTOAFriend</a></td><td rowspan="1">1584568351852</td><td rowspan="1">39314</td></tr><tr class="failedeven"><td><a href="#m1">userShouldBeAbleToCompareTwoDifferentProductSuccessfully</a></td><td rowspan="1">1584568426740</td><td rowspan="1">789</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">WebTest.TestSuit</td><td><a href="#m2">nonRegisteredUserShouldNotBeAbleToReferAProductToAFriend</a></td><td rowspan="1">1584568329503</td><td rowspan="1">10620</td></tr><tr class="passedeven"><td><a href="#m3">userShouldAbleToRegisterSuccessfully</a></td><td rowspan="1">1584568403843</td><td rowspan="1">11594</td></tr><tr class="passedeven"><td><a href="#m4">userShouldBeAbleToSortProductHighToLowByPrice</a></td><td rowspan="1">1584568440037</td><td rowspan="1">12320</td></tr><tr class="passedeven"><td><a href="#m5">verifyAddToCArtButtonIsPresentOnAllFeatureProduct</a></td><td rowspan="1">1584568463709</td><td rowspan="1">125</td></tr><tr class="passedeven"><td><a href="#m6">verifyGuestUserShouldAbleToAddNewCommentInNobCommerce</a></td><td rowspan="1">1584568475195</td><td rowspan="1">5107</td></tr><tr class="passedeven"><td><a href="#m7">verifyGuestUserShouldAbleToCheckOutSuccessfully</a></td><td rowspan="1">1584568491315</td><td rowspan="1">18025</td></tr><tr class="passedeven"><td><a href="#m8">verifyUserShouldAbleToChangeCurrency</a></td><td rowspan="1">1584568520710</td><td rowspan="1">2147</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">WebTest.TestSuit#registeredUserShouldBeAbleToReferAProductTOAFriend</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;result&apos;]&quot;}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-DLF0C8J&apos;, ip: &apos;192.168.0.72&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Toshiba\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2af6f4a888eaaa5532d9a0d924e1710a
+*** Element info: {Using=xpath, value=//div[@class=&apos;result&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at WebTest.Utils.getTextElement(Utils.java:97)
+	at WebTest.Utils.assertTextMessage(Utils.java:102)
+	at WebTest.EmailAFriendPage.verifyUserSeeSuccessMessageOfEmailAFriend(EmailAFriendPage.java:43)
+	at WebTest.TestSuit.registeredUserShouldBeAbleToReferAProductTOAFriend(TestSuit.java:150)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">WebTest.TestSuit#userShouldBeAbleToCompareTwoDifferentProductSuccessfully</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at WebTest.Utils.assertURL(Utils.java:106)
+	at WebTest.CompareSuccessPage.verifyUserShouldSeeCompareSuccessMassage(CompareSuccessPage.java:11)
+	at WebTest.TestSuit.userShouldBeAbleToCompareTwoDifferentProductSuccessfully(TestSuit.java:122)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">WebTest.TestSuit#nonRegisteredUserShouldNotBeAbleToReferAProductToAFriend</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">WebTest.TestSuit#userShouldAbleToRegisterSuccessfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">WebTest.TestSuit#userShouldBeAbleToSortProductHighToLowByPrice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">WebTest.TestSuit#verifyAddToCArtButtonIsPresentOnAllFeatureProduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">WebTest.TestSuit#verifyGuestUserShouldAbleToAddNewCommentInNobCommerce</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">WebTest.TestSuit#verifyGuestUserShouldAbleToCheckOutSuccessfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">WebTest.TestSuit#verifyUserShouldAbleToChangeCurrency</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

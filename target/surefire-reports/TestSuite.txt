@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 241.75 s <<< FAILURE! - in TestSuite
+registeredUserShouldBeAbleToReferAProductTOAFriend(WebTest.TestSuit)  Time elapsed: 39.344 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='result']"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DLF0C8J', ip: '192.168.0.72', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Toshiba\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:64766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2af6f4a888eaaa5532d9a0d924e1710a
+*** Element info: {Using=xpath, value=//div[@class='result']}
+	at WebTest.TestSuit.registeredUserShouldBeAbleToReferAProductTOAFriend(TestSuit.java:150)
+
+userShouldBeAbleToCompareTwoDifferentProductSuccessfully(WebTest.TestSuit)  Time elapsed: 0.786 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at WebTest.TestSuit.userShouldBeAbleToCompareTwoDifferentProductSuccessfully(TestSuit.java:122)
+
