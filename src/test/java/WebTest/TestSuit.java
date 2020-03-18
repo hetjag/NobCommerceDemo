@@ -107,6 +107,7 @@ public class TestSuit extends BaseTest {
         registrationPage.verifyUserIsOnRegisterPage();
         //fill up registration details
         registrationPage.userEntrsRegistrationDetails();
+        registrationPage.userClicksOnRegisterSubmitButton();
         //verify registration success message
         registrationResultPage.verifyUserSeeRegistrationSuccessMessage();
 

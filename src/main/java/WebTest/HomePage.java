@@ -2,6 +2,9 @@ package WebTest;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.Color;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import java.util.List;
@@ -26,6 +29,11 @@ public class HomePage  extends Utils{
     private By _digitalDownloadsButton = By.linkText("Digital downloads");
     private By _nopCommerceLink =By.linkText("demo.nopcommerce");
     private By _homePageImage = By.xpath("//img[@alt='nopCommerce demo store']");
+
+
+
+    String expectedBeforehover = "#555555";
+    String expectedAfterhover = "#4ab2f1";
 
 
     public void clickOnDigitalDownloadsCategory()
@@ -143,6 +151,46 @@ public class HomePage  extends Utils{
     public void clickOnCategoryLinks(String category){
         driver.findElement(By.linkText(category)).click();
     }
+    public void moveOnElement(String categoryLink){
+        WebElement menuOption = driver.findElement(By.linkText(categoryLink));
+        //move on computer to perform mouse hover
+        // Instantiate Action Class
+        sleep(3);
+        Actions builder = new Actions(driver);
+        Action mouseOverCategory = builder.moveToElement(menuOption).build();
+        //Storing  color
+        String hexActualBeforeHover = Color.fromString(menuOption.getCssValue("color")).asHex();
+        System.out.println("Before hover : " + hexActualBeforeHover);
+        Assert.assertEquals(hexActualBeforeHover, expectedBeforehover, "Before hover colour is not correct");
+        //Mouse hover  menuOption 'computer'
+        mouseOverCategory.perform(); }
+    public void verifyUserShouldSeeChangeColorOfCategory (String category)
+    {
+        WebElement menuOption = driver.findElement(By.linkText(category));
+
+        String hexActualAfterHover = Color.fromString(menuOption.getCssValue("color")).asHex();
+
+        System.out.println("After hover : "+ hexActualAfterHover);
+        Assert.assertEquals(hexActualAfterHover, expectedAfterhover, "After hover colour is not correct");
+    }
+    public void clickOnSubCategoryLink(String categoryLink,String subCategoryLink)
+    {
+        WebElement menuOption = driver.findElement((By.xpath("//div[@class='header-menu']/ul[1]/li/a[contains(.,'"+categoryLink+"')]")));
+        WebElement subMenuOption = driver.findElement(By.xpath("//div[@class='header-menu']/ul[1]/li/ul/li/a[contains(.,'"+subCategoryLink+"')]"));
+        Actions builder = new Actions(driver);
+        Action mouseOverCategory = builder
+                .moveToElement(menuOption)
+                .click(subMenuOption)
+                .build();
+        mouseOverCategory.perform();
+        sleep(4);
+    }
+    public void verifyIShouldAbleToNavigateToSubCategoryPageSuccessfully(String subcategory)
+    {
+
+        assertURL(subcategory);
+    }
+
 
 }
 

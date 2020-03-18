@@ -2,66 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f05ce832-512d-43f0-8b0c-e4c3457aca36" name="Default Changelist" comment="Adding feature files">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/categories.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/embedded0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/embedded1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/report.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/Guest user should able to check032420102447.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/Guest user should able to check040620070618.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/Guest user should able to check041520071552.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/CheckoutAsAGuestPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/CheckoutCompletePage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/ConfirmPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/DigitalDownloadPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/LoadProp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/News.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/OnePageCheckoutPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/PaymentPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/Practise.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/WebTest/ShoppingCartPage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/cucumber-json-report.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/BrowserDriver/IEDriverServer.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/BrowserDriver/geckodriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/NopeCommerceDemo.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestData/TestDataConfig.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestData/Testcase&amp;featurefile.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/TestData/Testcase&amp;featurefile2.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/WebTest/Hooks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/WebTest/MyStepdefs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/WebTest/RunTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/cartButtonPresent.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/changeCurrency.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/compareProduct.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/guestUserCheckout.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/guestuserAddComment.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/referAProductAFrinend.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/sortHighToLowPrice.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/registeredUserShouldBeAbleToReferAProductTOAFriend185320095311.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully161120081140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully161220081255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully162320072323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully163920073947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully164020074029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldAbleToRegisterSuccessfully164420074453.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Screenshots/userShouldBeAbleToCompareTwoDifferentProductSuccessfully185320095347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/checkHooveringInCategories.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/Guest user should able to check040720090717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to compare two different product181520101531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to navigate to subcategory page180520090511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to navigate to subcategory page181720091741.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to use hoover facilities184320054304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to use hoover facilities184420054408.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to use hoover facilities184520054506.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to use hoover facilities184620054604.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Destination/screenshots/I should able to use hoover facilities184720054745.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-03-18T21-49-51_164-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2020-03-18T21-49-51_164-jvmRun1.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/Surefire suite/Surefire test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/Surefire test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/Surefire suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-junit-results/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/Surefire suite/Surefire test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/Surefire suite/Surefire test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/Surefire suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/junitreports/TEST-WebTest.TestSuit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/Surefire test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/Surefire suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-native-results/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/registeredUserShouldBeAbleToReferAProductTOAFriend185320095311.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/sample.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldAbleToRegisterSuccessfully161120081140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldAbleToRegisterSuccessfully161220081255.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldAbleToRegisterSuccessfully162320072323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldAbleToRegisterSuccessfully163920073947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldAbleToRegisterSuccessfully164020074029.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldAbleToRegisterSuccessfully164420074453.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Screenshots/userShouldBeAbleToCompareTwoDifferentProductSuccessfully185320095347.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/categories.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/checkHooveringInCategories.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/BrowserSelector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/EmailAFriendPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/EmailAFriendPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WebTest/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebTest/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/MyStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/MyStepdefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/RunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/cartButtonPresent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/cartButtonPresent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/registration.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/registration.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebTest/BooksCategoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/BooksCategoryPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WebTest/TestSuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WebTest/TestSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/TestData/TestDataConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/TestData/TestDataConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Destination/cucumber-html-report/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/embedded0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Destination/cucumber-html-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Destination/cucumber-html-report/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/BrowserSelector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebTest/CompareSuccessPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/CompareSuccessPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebTest/EmailAFriendPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/EmailAFriendPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebTest/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/RegistrationPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WebTest/RegistrationResultPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/RegistrationResultPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WebTest/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WebTest/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/WebTest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebTest/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-json-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-json-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestData/TestDataConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestData/TestDataConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebTest/MyStepdefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebTest/MyStepdefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/WebTest/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebTest/RunTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WebTest/TestSuit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WebTest/TestSuit.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +157,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="public" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Nopcommercecategoryhomework-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features/checkHooveringInCategories.feature" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -129,39 +181,14 @@
       <recent name="C:\Users\Toshiba\Downloads\ab-master (1)\NopeCommerceDemo\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RunTest">
-    <configuration name="Feature: guestUserCheckout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/guestUserCheckout.feature" />
-      <option name="GLUE" value="WebTest" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+  <component name="RunManager" selected="Cucumber java.hover.feature">
+    <configuration name="hover.feature" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="FILE_PATH" value="C:\Users\Toshiba\Downloads\ab-master (1)\NopeCommerceDemo\src\test\resources\features\checkHooveringInCategories.feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="NopeCommerceDemo" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: guestUserCheckout" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/registration.feature" />
-      <option name="GLUE" value="WebTest" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="NopeCommerceDemo" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: registration" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="VM_PARAMETERS" value="-Dbrowser=firefox -DSauce=false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,18 +208,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSuit.verifyGuestUserShouldAbleToAddNewCommentInNobCommerce" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSuit.userShouldAbleToRegisterSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NopeCommerceDemo" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="WebTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="WebTest" />
       <option name="MAIN_CLASS_NAME" value="WebTest.TestSuit" />
-      <option name="METHOD_NAME" value="verifyGuestUserShouldAbleToAddNewCommentInNobCommerce" />
+      <option name="METHOD_NAME" value="userShouldAbleToRegisterSuccessfully" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dbrowser=edge -DSauce=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -217,13 +254,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber java.hover.feature" />
+      <item itemvalue="JUnit.RunTest" />
+      <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully" />
+      <item itemvalue="TestNG.TestSuit.verifyGuestUserShouldAbleToCheckOutSuccessfully" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunTest" />
-        <item itemvalue="Cucumber java.Feature: registration" />
-        <item itemvalue="Cucumber java.Feature: guestUserCheckout" />
+        <item itemvalue="TestNG.TestSuit.userShouldAbleToRegisterSuccessfully" />
         <item itemvalue="TestNG.TestSuit.verifyGuestUserShouldAbleToCheckOutSuccessfully" />
-        <item itemvalue="TestNG.TestSuit.verifyGuestUserShouldAbleToAddNewCommentInNobCommerce" />
       </list>
     </recent_temporary>
   </component>
@@ -305,15 +346,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="0" width="596" height="728" key="#Screenshots/0.0.1366.728@0.0.1366.728" timestamp="1582479386559" />
+    <state x="33" y="-825" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584569815876">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
+    </state>
+    <state x="33" y="-825" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569815876" />
+    <state x="1739" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584396792432" />
+    <state x="1739" y="375" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1160@1366.0.1920.1160" timestamp="1584550867141" />
     <state x="1495" y="-109" width="1662" height="867" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583181190049">
       <screen x="1366" y="-256" width="1920" height="1160" />
     </state>
     <state x="1495" y="-109" width="1662" height="867" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583181190049" />
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1582585038408" />
-    <state x="2065" y="127" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583269371641">
+    <state x="2065" y="127" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584475923970">
       <screen x="1366" y="-256" width="1920" height="1160" />
     </state>
-    <state x="2065" y="127" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583269371641" />
+    <state x="2065" y="127" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584475923970" />
     <state x="441" y="179" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1581782682927">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -323,6 +370,10 @@
     </state>
     <state x="495" y="91" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1581956835472" />
     <state x="2062" y="-111" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1582721960697" />
+    <state x="308" y="-696" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584569096004">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
+    </state>
+    <state x="308" y="-696" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569096004" />
     <state x="2049" y="128" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583274693642">
       <screen x="1366" y="-256" width="1920" height="1160" />
     </state>
@@ -338,39 +389,56 @@
     </state>
     <state x="491" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583009621096" />
     <state x="2056" y="71" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1582161639002" />
-    <state x="1723" y="-256" key="CommitChangelistDialog2" timestamp="1583356278036">
-      <screen x="1366" y="-256" width="1920" height="1160" />
+    <state x="337" y="-962" key="#hover.feature" timestamp="1584569116942">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
+    </state>
+    <state x="337" y="-962" key="#hover.feature/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569116942" />
+    <state x="254" y="0" key="CommitChangelistDialog2" timestamp="1584571630108">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1723" y="-256" key="CommitChangelistDialog2/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583356278036" />
-    <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582479506119" />
-    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1583431482791">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="254" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584571630108" />
+    <state x="354" y="-859" key="EnvironmentVariablesDialog" timestamp="1584568909212">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
     </state>
+    <state x="354" y="-859" key="EnvironmentVariablesDialog/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584568909212" />
+    <state x="309" y="-1010" key="FileChooserDialogImpl" timestamp="1584569764717">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
+    </state>
+    <state x="309" y="-1010" key="FileChooserDialogImpl/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569764717" />
     <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583431482791" />
     <state x="2015" y="-66" key="FileChooserDialogImpl/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583017938865" />
-    <state width="1323" height="233" key="GridCell.Tab.0.bottom" timestamp="1583592231063">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom" timestamp="1584569825545">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
     </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569825545" />
     <state width="1306" height="251" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583094344314" />
-    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583361294721" />
+    <state width="1877" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584395789023" />
+    <state width="1877" height="343" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1160@1366.0.1920.1160" timestamp="1584566759121" />
     <state width="1323" height="233" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583592231063" />
-    <state width="1323" height="233" key="GridCell.Tab.0.center" timestamp="1583592231063">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="343" key="GridCell.Tab.0.center" timestamp="1584569825545">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
     </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.center/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569825545" />
     <state width="1306" height="251" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583094344313" />
-    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583361294721" />
+    <state width="1877" height="2" key="GridCell.Tab.0.center/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584395789023" />
+    <state width="1877" height="343" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1160@1366.0.1920.1160" timestamp="1584566759121" />
     <state width="1323" height="233" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583592231063" />
-    <state width="1323" height="233" key="GridCell.Tab.0.left" timestamp="1583592231063">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="343" key="GridCell.Tab.0.left" timestamp="1584569825545">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
     </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.left/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569825545" />
     <state width="1306" height="251" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583094344313" />
-    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583361294721" />
+    <state width="1877" height="2" key="GridCell.Tab.0.left/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584395789023" />
+    <state width="1877" height="343" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1160@1366.0.1920.1160" timestamp="1584566759121" />
     <state width="1323" height="233" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583592231063" />
-    <state width="1323" height="233" key="GridCell.Tab.0.right" timestamp="1583592231063">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="343" key="GridCell.Tab.0.right" timestamp="1584569825545">
+      <screen x="-340" y="-1200" width="1920" height="1160" />
     </state>
+    <state width="1877" height="343" key="GridCell.Tab.0.right/0.0.1366.728/-340.-1200.1920.1160@-340.-1200.1920.1160" timestamp="1584569825545" />
     <state width="1306" height="251" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583094344314" />
-    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583361294721" />
+    <state width="1877" height="2" key="GridCell.Tab.0.right/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584395789023" />
+    <state width="1877" height="343" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1160@1366.0.1920.1160" timestamp="1584566759121" />
     <state width="1323" height="233" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583592231063" />
     <state width="1877" height="206" key="GridCell.Tab.1.bottom" timestamp="1583275450299">
       <screen x="1366" y="-256" width="1920" height="1160" />
@@ -403,19 +471,20 @@
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583431450618" />
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582927563257" />
-    <state x="1918" y="57" key="Vcs.Push.Dialog.v2" timestamp="1583356282066">
-      <screen x="1366" y="-256" width="1920" height="1160" />
+    <state x="393" y="194" key="Vcs.Push.Dialog.v2" timestamp="1584570915541">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1918" y="57" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583356282066" />
+    <state x="393" y="194" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584570915541" />
     <state x="1458" y="-164" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582756896869">
       <screen x="1366" y="-256" width="1920" height="1160" />
     </state>
     <state x="1458" y="-164" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1582756896869" />
-    <state x="388" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1583784515178">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1911" y="10" key="com.intellij.ide.util.TipDialog" timestamp="1584469457589">
+      <screen x="1366" y="-256" width="1920" height="1160" />
     </state>
     <state x="388" y="167" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1583784515178" />
-    <state x="1911" y="10" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583347508767" />
+    <state x="1911" y="10" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584469457589" />
     <state x="388" y="167" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583609264047" />
     <state x="2056" y="93" width="540" height="496" key="extract.method.dialog" timestamp="1583100607986">
       <screen x="1366" y="-256" width="1920" height="1160" />
@@ -426,10 +495,10 @@
     </state>
     <state x="1911" y="-136" width="854" height="855" key="find.popup/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583180482869" />
     <state x="388" y="75" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1581802481831" />
-    <state x="131" y="119" key="new project wizard" timestamp="1583610020357">
+    <state x="100" y="43" key="new project wizard" timestamp="1584469819038">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="1708" y="19" key="new project wizard/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1582321691435" />
+    <state x="100" y="43" key="new project wizard/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584469819038" />
     <state x="131" y="119" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1583610020357" />
     <state x="1977" y="198" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1583179645081">
       <screen x="1366" y="-256" width="1920" height="1160" />
@@ -442,10 +511,11 @@
     </state>
     <state x="1852" y="20" width="672" height="677" key="run.anything.popup/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1583269894024" />
     <state x="346" y="173" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1583082984897" />
-    <state x="353" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1582490701622">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1862" y="-178" width="945" height="1081" key="search.everywhere.popup" timestamp="1584392707684">
+      <screen x="1366" y="-256" width="1920" height="1160" />
     </state>
     <state x="353" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.-256.1920.1160@0.0.1366.728" timestamp="1582490701622" />
+    <state x="1862" y="-178" width="945" height="1081" key="search.everywhere.popup/0.0.1366.728/1366.-256.1920.1160@1366.-256.1920.1160" timestamp="1584392707684" />
     <state x="353" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1582118062124" />
   </component>
   <component name="XDebuggerManager">

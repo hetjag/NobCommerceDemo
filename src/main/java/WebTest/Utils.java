@@ -1,6 +1,8 @@
 package WebTest;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -121,10 +123,7 @@ public class Utils extends BasePage
         WebElement element = driver.findElement(by);
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
         element.click();
-
-
     }
-
     public static void takeScreenShot(String fileName) {
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         //The below method will save the screen shot in d drive with test method name
@@ -134,5 +133,7 @@ public class Utils extends BasePage
             e.printStackTrace();
         }
     }
+
+
 
 }

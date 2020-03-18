@@ -258,4 +258,28 @@ public class MyStepdefs {
     public void userShouldAbleToNavigateToSuccessfully(String related_category_page)
     { Utils.assertURL(related_category_page);
     }
+    //Hoovering on category
+//**********************************************************************************************************************
+    @When("I hover over on category {string} link")
+    public void iHoverOverOnCategoryLink(String categoryLink)
+    {
+        homePage.moveOnElement(categoryLink);
+
+    }
+
+    @Then("I should able to navigate to sub category  {string} page successfully")
+    public void iShouldAbleToNavigateToSubCategoryPageSuccessfully(String subcategory)
+    {
+        homePage.verifyIShouldAbleToNavigateToSubCategoryPageSuccessfully(subcategory);
+    }
+
+    @Then("I should able to see related {string} link text color change to blue")
+    public void iShouldAbleToSeeRelatedLinkTextColorChangeToBlue(String category) {
+        homePage.verifyUserShouldSeeChangeColorOfCategory(category);
+    }
+
+    @When("I hover over {string}  link and click on subcategory {string} link")
+    public void iHoverOverLinkAndClickOnSubcategoryLink(String category, String subCategory) {
+        homePage.clickOnSubCategoryLink(category, subCategory);
+    }
 }

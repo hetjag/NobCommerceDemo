@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features=".", tags = {"@category"},
+@CucumberOptions(features="src/test/resources/features", tags = {"@hover"},
         monochrome = true,
         plugin = {"pretty","html:target/Destination/cucumber-html-report", "json:target/cucumber-json-report.json" }
 
